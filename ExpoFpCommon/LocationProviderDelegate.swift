@@ -18,4 +18,6 @@ public protocol LocationProviderDelegate {
     ///Location provider failed stop event
     func didStopFailure(reason: String)
     
+    ///Compare objects
+    //func areEqual(delegate: LocationProviderDelegate) -> Bool
 }
