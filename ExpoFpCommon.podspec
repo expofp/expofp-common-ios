@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpCommon"
-  spec.version            = "3.0.1"
+  spec.version            = "3.0.2"
   spec.platform           = :ios, '13.0'
   spec.summary            = "Fplan Library for iOS apps"
   spec.description        = "Library for displaying expo plans"
