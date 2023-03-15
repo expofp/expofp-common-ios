@@ -1,7 +1,7 @@
 import Foundation
 
 ///Events listener protocol
-public protocol LocationProviderDelegate {
+public protocol LocationProviderDelegate  {
     
     ///Location update event
     func didUpdateLocation(location: Location)
