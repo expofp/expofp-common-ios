@@ -13,7 +13,7 @@ public protocol LocationProvider {
     var delegate: LocationProviderDelegate? { get set}
     
     ///Start location provider
-    func start()
+    func start(_ isBackground: Bool)
     
     ///Stop location provider
     func stop()

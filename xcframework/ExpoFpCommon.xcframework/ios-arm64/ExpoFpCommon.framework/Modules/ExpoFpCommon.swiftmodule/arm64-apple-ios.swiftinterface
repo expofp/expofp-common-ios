@@ -33,6 +33,6 @@ public struct Location {
 }
 public protocol LocationProvider {
   var delegate: ExpoFpCommon.LocationProviderDelegate? { get set }
-  func start()
+  func start(_ isBackground: Swift.Bool)
   func stop()
 }
