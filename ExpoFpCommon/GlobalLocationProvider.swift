@@ -19,7 +19,7 @@ public class GlobalLocationProvider {
         }
         
         self.isStarted = true
-        self.locationProvider!.start(true)
+        self.locationProvider!.start()
     }
     
     

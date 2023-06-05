@@ -13,8 +13,14 @@ public protocol LocationProvider {
     var delegate: LocationProviderDelegate? { get set}
     
     ///Start location provider
-    func start(_ isBackground: Bool)
+    func start()
     
     ///Stop location provider
     func stop()
+    
+    ///Request 'Always' authorization
+    func requestAlwaysAuthorization()
+    
+    ///Request 'WhenInUse' authorization
+    func requestWhenInUseAuthorization()
 }

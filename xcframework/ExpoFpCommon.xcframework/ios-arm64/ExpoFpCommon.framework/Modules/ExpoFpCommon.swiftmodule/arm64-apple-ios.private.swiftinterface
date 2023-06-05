@@ -33,6 +33,8 @@ public struct Location {
 }
 public protocol LocationProvider {
   var delegate: ExpoFpCommon.LocationProviderDelegate? { get set }
-  func start(_ isBackground: Swift.Bool)
+  func start()
   func stop()
+  func requestAlwaysAuthorization()
+  func requestWhenInUseAuthorization()
 }
