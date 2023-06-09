@@ -3,24 +3,12 @@ import Foundation
 ///Location provider
 public protocol LocationProvider {
     
-    ///Register an events listener
-    //func addDelegate(_ provider: LocationProviderDelegate)
-    
-    ///Remove events listener registration
-    //func removeDelegate(_ provider: LocationProviderDelegate)
-    
-    ///Events listener
-    var delegate: LocationProviderDelegate? { get set}
-    
     ///Start location provider
-    func start()
+    func start(_ inBackgound: Bool)
     
     ///Stop location provider
     func stop()
     
-    ///Request 'Always' authorization
-    func requestAlwaysAuthorization()
-    
-    ///Request 'WhenInUse' authorization
-    func requestWhenInUseAuthorization()
+    ///Events listener
+    var delegate: LocationProviderDelegate? { get set}
 }
