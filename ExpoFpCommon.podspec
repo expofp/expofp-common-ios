@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpCommon"
-  spec.version            = "4.2.0"
+  spec.version            = "4.2.1"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP common package"
   spec.description        = "Common package for ExpoFP SDK"
