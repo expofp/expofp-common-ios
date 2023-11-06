@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpCommon"
-  spec.version            = "4.2.12"
+  spec.version            = "4.2.13"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP common package"
   spec.description        = "Common package for ExpoFP SDK"
@@ -15,9 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = "14.0"
 
   # Published binaries
-  #spec.ios.vendored_frameworks = "xcframework/ExpoFpCommon.xcframework"
-
-  spec.source_files = 'Sources/ExpoFpCommon/**/*'
+  spec.ios.vendored_frameworks = "ExpoFpCommon.xcframework"
 
 
 end
