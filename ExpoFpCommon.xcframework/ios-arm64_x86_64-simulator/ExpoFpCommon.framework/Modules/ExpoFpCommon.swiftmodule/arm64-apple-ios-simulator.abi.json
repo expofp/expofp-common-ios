@@ -1098,28 +1098,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios copy\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 97,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios copy\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 528,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios copy\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 570,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios copy\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 748,
       "length": 5,
