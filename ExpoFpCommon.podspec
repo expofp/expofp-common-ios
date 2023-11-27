@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpCommon"
-  spec.version            = "4.2.15"
+  spec.version            = "0.4.2.16"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP common package"
   spec.description        = "Common package for ExpoFP SDK"
   spec.homepage           = "https://www.expofp.com"
   spec.documentation_url  = "https://expofp.github.io/expofp-mobile-sdk/ios-sdk"
-  spec.license            = { :type => "MIT", :file => "LICENSE.md" }
+  spec.license            = { :type => "MIT" }
   spec.author                = { 'ExpoFP' => 'support@expofp.com' }
   spec.source             = { :git => 'https://github.com/expofp/expofp-common-ios.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5"
